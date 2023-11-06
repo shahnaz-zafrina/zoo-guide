@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4B543B"
+    tools:context=".DescActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/linearLayout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/scannedQRtxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="Scanned QR: "
+                    android:textColor="#E6E6E6"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="QRID"
+                    android:textColor="#E6E6E6"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#90B967"
+                android:fontFamily="@font/nunito_extralight"
+                android:padding="5dp"
+                android:text="READ"
+                android:textAllCaps="false"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LANGUAGE"
+                android:textColor="#E6E6E6"
+                android:textSize="5sp"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:background="#4B543B"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/animalImg"
+                android:layout_width="450dp"
+                android:layout_height="290dp"
+                android:layout_marginTop="-5dp"
+                app:srcCompat="@drawable/imgraccoon" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="-100dp"
+                android:background="@drawable/gradient_background"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="-30dp"
+                android:background="@drawable/round_border_all"
+                android:elevation="8dp"
+                android:orientation="vertical"
+                android:padding="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="315dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:padding="5dp"
+                    android:text="Animal Name"
+                    android:textColor="#B57F50"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:justificationMode="inter_word"
+                    android:padding="5dp"
+                    android:text="Scientific Name"
+                    android:textColor="#6B7564"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/nunito_extralight"
+                android:justificationMode="inter_word"
+                android:paddingHorizontal="30dp"
+                android:text="Animal description."
+                android:textColor="#DCE2AA"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="50dp"
+                android:backgroundTint="#BFBCBC"
+                android:fontFamily="@font/nunito_extralight"
+                android:padding="5dp"
+                android:text="BACK"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

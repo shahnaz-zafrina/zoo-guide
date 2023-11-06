@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4B543B"
+    tools:context=".FeedbackThanksActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="50dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/likeIcon"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/like"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtThanks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/nunito_light"
+            android:gravity="center"
+            android:text="Thank you for your feedback!"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSendAnother"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#B57F50"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:text="Submit another feedback" />
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#DCE2AA"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textColor="#4B543B"
+            android:text="Back to homepage" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

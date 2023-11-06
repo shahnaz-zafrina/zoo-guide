@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4B543B"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/mainicon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/appTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/dokdo"
+        android:paddingVertical="5dp"
+        android:text="ZOO NEGARA GUIDE"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/exploreTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:paddingHorizontal="40dp"
+        android:text="Explore Zoo Negara"
+        android:textAlignment="textStart"
+        android:textColor="#DCE2AA"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appTxt" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exploreTxt">
+
+        <Button
+            android:id="@+id/BtnScan"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:backgroundTint="#B57F50"
+            android:drawableTop="@drawable/buttoniconscan"
+            android:paddingBottom="20dp"
+            android:text="Scan Qr"
+            android:textAlignment="textStart"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/BtnMap"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:backgroundTint="#B57F50"
+            android:drawableTop="@drawable/buttoniconmap"
+            android:onClick="actMap"
+            android:paddingBottom="20dp"
+            android:text="Zoo Map"
+            android:textAlignment="textStart"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/discoverEventsTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:paddingHorizontal="40dp"
+        android:text="Discover Zoo Events"
+        android:textAlignment="textStart"
+        android:textColor="#DCE2AA"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:paddingHorizontal="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/discoverEventsTxt">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:clipToPadding="false"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp" />
+
+        <ImageButton
+            android:id="@+id/previousButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginLeft="35dp"
+            android:layout_marginBottom="12dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/arrowleft" />
+
+        <ImageButton
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginRight="35dp"
+            android:layout_marginBottom="12dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/arrowright" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#B57F50"
+        android:orientation="vertical"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
+        <Button
+            android:id="@+id/BtnSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/buttoniconlang"
+            android:text="Language Selection"
+            android:textAlignment="textStart"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/BtnAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/buttoniconabt"
+            android:onClick="actAbout"
+            android:text="About Us"
+            android:textAlignment="textStart"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/BtnFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/buttoniconfb"
+            android:onClick="actFeedback"
+            android:text="Feedback"
+            android:textAlignment="textStart"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

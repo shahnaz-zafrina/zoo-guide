@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Zoo Negara Guide</string>
+    <string name="event">Events</string>
+    <string name="mapSetting">Map Setting</string>
+    <string name="multishow">Multi-Animal Show</string>
+    <string name="feeding">Animal Feeding Session</string>
+    <string name="alarmactivity">Reminder</string>
+    <string name="feedbackform">Feedback</string>
+    <string name="accessToken">sk.eyJ1Ijoic2h1aG51eiIsImEiOiJjbGhrZWc0YzcwcXk2M3RxcHUycXZoOHc2In0.Oh2UHxFCV-WCYrHQkV_W3w</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="english">en-US</string>
+    <string name="japanese">ja-JP</string>
+    <string name="chinese">zh-CN</string>
+    <string name="thai">th-TH</string>
+    <string name="malay">mk-MK</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!--For event page-->
+    <string name="jpnEventName1">複数の動物のショー</string>
+    <string name="jpnEventName2">動物の餌やりセッション</string>
+    <string name="jpnDescName1">このショーにはコンゴウインコとアシカが含まれます。</string>
+    <string name="jpnDescName2">ジャワシカに餌をあげたり、間近で観察したりできます。</string>
+
+    <string name="thEventName1">การแสดงสัตว์นานาชนิด</string>
+    <string name="thEventName2">เซสชั่นการให้อาหารสัตว์</string>
+    <string name="thDescName1">การแสดงนี้มีนกมาคอว์และสิงโตทะเล</string>
+    <string name="thDescName2">ให้อาหารและดูกวางชวาอย่างใกล้ชิด</string>
+
+    <string name="chEventName1">多动物表演</string>
+    <string name="chEventName2">动物喂食环节</string>
+    <string name="chDescName1">这个节目包括金刚鹦鹉和海狮。</string>
+    <string name="chDescName2">喂食并近距离观察爪哇鹿。</string>
+
+    <!-- For event details page -->
+    <string name="eventTitle1">Multi-Animal Show</string>
+    <string name="eventDay1">Saturday to Thursday</string>
+    <string name="eventTime1">11.00AM</string>
+    <string name="eventVenue1">Show Amphitheatre</string>
+
+    <string name="eventTitle2">Animal Feeding Session</string>
+    <string name="eventDay2">Weekends and Public Holidays</string>
+    <string name="eventTime2">2.00PM - 3.00PM</string>
+    <string name="eventVenue2">Javan Deer Enclosure</string>
+
+    <!-- For about page -->
+    <string name="tv1Jp">ネガラ動物園ガイドのビジョンは、マレーシアの貴重な動物園であるネガラ動物園の魅惑的な驚異を探索する観光客の訪問体験をシームレスに向上させる強力なツールを作成することでした。 同時に、この優れた施設をより幅広い国際的な聴衆に宣伝することが目的でした。</string>
+    <string name="tv2Jp">Zoo Negara Guide は、ユーザーに動物園内の簡単なナビゲーションを提供し、魅惑的な動物の展示、魅力的なインタラクティブ ショー、その他の魅力的なアトラクションを簡単に見つけられるようにします。 生息地やその他の興味深い事実を含む、各動物種に関する詳細情報にアプリ内で簡単にアクセスできるため、訪問者は野生動物の複雑な世界をより深く掘り下げることができます。</string>
+    <string name="tv3Jp">ネガラ動物園の広大な驚異をナビゲートしながら、私たちと一緒に素晴らしい旅に出かけましょう。 ネガラ動物園のガイドがこの冒険に同行し、魅惑的な生き物の世界を案内し、永遠の思い出を作りましょう。</string>
+    <string name="tv4Jp">ネガラ動物園ガイドへようこそ！ 私は Shahnaz Zafrina です。この素晴らしいアプリケーションの開発者です。 私は、ネガラ動物園を訪れる外国人観光客の体験を向上させることを主な目的として、4 か月間かけてこのアプリの作成に熱心に取り組みました。</string>
+    <string name="tv5Jp">私の尊敬する上司であるモフド・ファイサル・ビン・イブラヒム博士とヌルシャフリー・イドゥラ・ラムリ夫人の貴重な指導の下、私は UiTM シャー・アラムの CS251 (ネットセントリック コンピューティング) 学生として Zoo Negara Guide の開発に取り組みました。 このアプリケーションは、CSP650 (プロジェクト策定) モジュールのコースワークの一環として細心の注意を払って作成されました。</string>
+    <string name="tv6Jp">このアプリの開発を通じて、私の願望は、訪問者とネガラ動物園の畏敬の念を抱かせる驚異との間の橋渡しをすることでした。 ネガラ動物園ガイドをコンパニオンとして提供することで、外国人観光客に包括的で没入型の体験を促進すると同時に、野生動物と保護活動への理解を高めることを目指しました。</string>
+    <string name="tv7Jp">Zoo Negara Guide をお選びいただき、誠にありがとうございます。 動物園での時間が魅惑と喜びで満たされますように!</string>
+
+    <string name="tv1Th">วิสัยทัศน์ของ Zoo Negara Guide คือการสร้างเครื่องมือที่มีประสิทธิภาพซึ่งจะช่วยปรับปรุงประสบการณ์การเยี่ยมชมอย่างไร้รอยต่อสำหรับนักท่องเที่ยวที่สำรวจความมหัศจรรย์อันน่าหลงใหลของ Zoo Negara ซึ่งเป็นสวนสัตว์ที่มีค่าในมาเลเซีย พร้อมกันนี้ จุดมุ่งหมายคือเพื่อส่งเสริมสถานประกอบการที่โดดเด่นนี้ไปยังผู้ชมต่างประเทศที่กว้างขึ้น</string>
+    <string name="tv2Th">Zoo Negara Guide ช่วยให้ผู้ใช้นำทางผ่านสวนสัตว์ได้อย่างง่ายดาย ทำให้ผู้ใช้สามารถค้นหาการจัดแสดงสัตว์ที่น่าหลงใหล การแสดงแบบอินเทอร์แอคทีฟที่น่าสนใจ และสถานที่น่าสนใจอื่น ๆ ที่น่าสนใจได้อย่างง่ายดาย ข้อมูลโดยละเอียดเกี่ยวกับสัตว์แต่ละชนิด รวมถึงที่อยู่อาศัยและข้อเท็จจริงที่น่าสนใจอื่น ๆ สามารถเข้าถึงได้ง่ายภายในแอป ทำให้ผู้เยี่ยมชมสามารถเจาะลึกเข้าไปในโลกที่ซับซ้อนของสัตว์ป่า</string>
+    <string name="tv3Th">เริ่มต้นการเดินทางที่ไม่ธรรมดาไปกับเราในขณะที่เราสำรวจความมหัศจรรย์อันกว้างใหญ่ของ Zoo Negara ให้ Zoo Negara Guide ไปกับคุณในการผจญภัยครั้งนี้ ทำหน้าที่เป็นไกด์ที่แน่วแน่ผ่านอาณาจักรแห่งสิ่งมีชีวิตที่น่าหลงใหลและสร้างความทรงจำที่ยั่งยืน</string>
+    <string name="tv4Th">ยินดีต้อนรับสู่ Zoo Negara Guide! ฉันชื่อ Shahnaz Zafrina นักพัฒนาซอฟต์แวร์ที่อยู่เบื้องหลังแอปพลิเคชันที่น่าทึ่งนี้โดยเฉพาะ ตลอดระยะเวลาสี่เดือน ฉันทำงานอย่างขยันขันแข็งเพื่อสร้างแอปนี้โดยมีวัตถุประสงค์หลักเพื่อยกระดับประสบการณ์ของนักท่องเที่ยวต่างชาติที่มาเยี่ยมชม Zoo Negara</string>
+    <string name="tv5Th">ภายใต้คำแนะนำล้ำค่าของหัวหน้างานที่นับถือ ดร. Mohd Faisal bin Ibrahim และ Madam Nurshahrily Idura Ramli ฉันรับหน้าที่พัฒนา Zoo Negara Guide ในฐานะนักเรียน CS251 (Netcentric Computing) ที่ UiTM Shah Alam แอปพลิเคชันนี้สร้างขึ้นอย่างพิถีพิถันโดยเป็นส่วนหนึ่งของหลักสูตรของฉันสำหรับโมดูล CSP650 (Project Formulation)</string>
+    <string name="tv6Th">จากการพัฒนาแอปนี้ ความปรารถนาของฉันคือการเชื่อมช่องว่างระหว่างผู้เยี่ยมชมกับความมหัศจรรย์ที่น่าประทับใจของ Zoo Negara ด้วยการเสนอ Zoo Negara Guide เป็นเพื่อน ฉันพยายามอำนวยความสะดวกให้นักท่องเที่ยวต่างชาติได้รับประสบการณ์ที่ครอบคลุมและดื่มด่ำ ในขณะเดียวกันก็ส่งเสริมความชื่นชมต่อสัตว์ป่าและความพยายามในการอนุรักษ์มากขึ้น</string>
+    <string name="tv7Th">เราขอขอบคุณอย่างจริงใจที่เลือก Zoo Negara Guide ขอให้เวลาของคุณที่สวนสัตว์เต็มไปด้วยมนต์เสน่ห์และความสุข!</string>
+
+    <string name="tv1Ch">Zoo Negara Guide 的愿景是创建一个强大的工具，为探索马来西亚珍贵动物园 Zoo Negara 迷人奇观的游客无缝改善参观体验。 同时，目标是向更广泛的国际观众推广这一卓越的机构。</string>
+    <string name="tv2Ch">Zoo Negara Guide 为用户提供轻松的动物园导航，使他们能够毫不费力地找到迷人的动物展品、引人入胜的互动表演和其他诱人的景点。 有关每个动物物种的详细信息，包括它们的栖息地和其他有趣的事实，都可以在应用程序中轻松访问，让游客可以更深入地探索错综复杂的野生动物世界。</string>
+    <string name="tv3Ch">与我们一起踏上非凡的旅程，探索国家动物园的广阔奇观。 让 Zoo Negara Guide 陪伴您踏上这次冒险之旅，作为坚定的向导穿越迷人的生物王国并创造持久的回忆。</string>
+    <string name="tv4Ch">欢迎来到国家动物园指南！ 我是 Shahnaz Zafrina，是这个非凡应用程序背后的敬业开发人员。 在四个月的时间里，我孜孜不倦地制作了这个应用程序，其主要目标是提升外国游客参观国家动物园的体验。</string>
+    <string name="tv5Ch">在我尊敬的导师 Mohd Faisal bin Ibrahim 博士和 Nurshahrily Idura Ramli 女士的宝贵指导下，我作为 UiTM Shah Alam 的 CS251（网络中心计算）学生参与了 Zoo Negara Guide 的开发。 这个应用程序是作为我的 CSP650（项目制定）模块课程作业的一部分精心创建的。</string>
+    <string name="tv6Ch">通过开发此应用程序，我的愿望是弥合游客与国家动物园令人惊叹的奇观之间的差距。 通过提供 Zoo Negara Guide 作为伴侣，我试图为外国游客提供全面和身临其境的体验，同时也培养对野生动物和保护工作的高度赞赏。</string>
+    <string name="tv7Ch">我们对选择 Zoo Negara Guide 表示最诚挚的感谢。 愿您在动物园的时光充满魅力和喜悦！</string>
+
+    <string name="tv1My">Visi untuk Panduan Zoo Negara adalah untuk mencipta alat yang mantap yang akan meningkatkan pengalaman lawatan dengan lancar untuk pelancong yang meneroka keajaiban Zoo Negara yang menawan—sebuah zoo yang sangat berharga di Malaysia. Pada masa yang sama, matlamatnya adalah untuk mempromosikan penubuhan luar biasa ini kepada antarabangsa yang lebih luas. penonton.</string>
+    <string name="tv2My">Panduan Zoo Negara menyediakan pengguna dengan navigasi yang mudah melalui zoo, membolehkan mereka dengan mudah mengesan pameran haiwan yang memukau, pertunjukan interaktif yang menarik, dan tarikan lain yang menarik. Maklumat terperinci tentang setiap spesies haiwan, termasuk habitat mereka, dan fakta menarik lain, mudah diakses dalam apl, membolehkan pelawat menyelami lebih mendalam ke dalam dunia hidupan liar yang rumit.</string>
+    <string name="tv3My">Mulakan perjalanan yang luar biasa bersama kami sambil kami mengemudi keajaiban Zoo Negara yang luas. Biarkan Zoo Negara Guide menemani anda dalam pengembaraan ini, berkhidmat sebagai panduan yang teguh melalui alam makhluk yang menawan dan mencipta kenangan abadi.</string>
+    <string name="tv4My">Selamat datang ke Zoo Negara Guide! Saya Shahnaz Zafrina, pembangun berdedikasi di sebalik aplikasi yang luar biasa ini. Dalam tempoh empat bulan, saya bersungguh-sungguh mengusahakan aplikasi ini dengan objektif utama untuk meningkatkan pengalaman pelancong asing melawat Zoo Negara.</string>
+    <string name="tv5My">Di bawah bimbingan penyelia yang saya hormati, Dr Mohd Faisal bin Ibrahim dan Puan Nurshahrily Idura Ramli, saya menjalankan pembangunan Zoo Negara Guide sebagai pelajar CS251 (Netcentric Computing) di UiTM Shah Alam. Aplikasi ini telah dibuat dengan teliti sebagai sebahagian daripada kerja kursus saya untuk modul CSP650 (Projek Rumusan).</string>
+    <string name="tv6My">Melalui pembangunan aplikasi ini, aspirasi saya adalah untuk merapatkan jurang antara pelawat dan keajaiban Zoo Negara yang mengagumkan. Dengan menawarkan Panduan Zoo Negara sebagai teman, saya berusaha untuk memudahkan pengalaman yang komprehensif dan mengasyikkan untuk pelancong asing, di samping memupuk penghargaan yang lebih tinggi untuk usaha pemuliharaan hidupan liar dan pemuliharaan.</string>
+    <string name="tv7My">Kami merakamkan setinggi-tinggi penghargaan kerana memilih Panduan Zoo Negara. Semoga masa anda di zoo dipenuhi dengan pesona dan kegembiraan!</string>
+
+    <!-- for feedback -->
+    <string name="fbNameJp">名前</string>
+    <string name="fbCountryJp">国</string>
+    <string name="fbTitleJp">フィードバックのタイトル</string>
+    <string name="fbContentJp">フィードバック内容</string>
+    <string name="fbRatingJp">動物園体験を評価してください:</string>
+
+    <string name="fbNameTh">ชื่อ</string>
+    <string name="fbCountryTh">ประเทศ</string>
+    <string name="fbTitleTh">หัวข้อความคิดเห็น</string>
+    <string name="fbContentTh">เนื้อหาคำติชม</string>
+    <string name="fbRatingTh">ให้คะแนนประสบการณ์สวนสัตว์ของคุณ:</string>
+
+    <string name="fbNameCh">姓名</string>
+    <string name="fbCountryCh">国家</string>
+    <string name="fbTitleCh">反馈标题</string>
+    <string name="fbContentCh">反馈内容</string>
+    <string name="fbRatingCh">评价您的动物园经历：</string>
+
+    <string name="fbNameMy">Nama</string>
+    <string name="fbCountryMy">Negara</string>
+    <string name="fbTitleMy">Tajuk maklum balas</string>
+    <string name="fbContentMy">Kandungan maklum balas</string>
+    <string name="fbRatingMy">Nilaikan pengalaman zoo anda:</string>
+
+    <string name="emailSubject">ZOO FEEDBACK</string>
+</resources>

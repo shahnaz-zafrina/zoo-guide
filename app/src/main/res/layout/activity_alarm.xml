@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4B543B"
+    tools:context=".AlarmActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/inputEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/nunito_extralight"
+            android:text="Set reminder for:"
+            android:textAlignment="center"
+            android:textColor="#F8F8F8"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintTop_creator="1" />
+
+        <TextView
+            android:id="@+id/textViewReceiver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="11dp"
+            android:ems="10"
+            android:fontFamily="@font/nunito_extralight"
+            android:hint="Event Name"
+            android:textAlignment="center"
+            android:textColor="#DCE2AA"
+            android:textColorHint="#DCE2AA"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/startSetDialog"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chooseTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/nunito_extralight"
+                android:text="Countdown Timer:"
+                android:textAlignment="center"
+                android:textColor="#F8F8F8"
+                android:textSize="20sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintTop_creator="1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/alarm30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.06"
+                    android:background="@drawable/border_green_button"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:padding="15dp"
+                    android:text="30 minutes before"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    app:backgroundTint="#B57F50"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.279"
+                    tools:layout_constraintBottom_creator="1"
+                    tools:layout_constraintLeft_creator="1"
+                    tools:layout_constraintRight_creator="1"
+                    tools:layout_constraintTop_creator="1" />
+
+                <Button
+                    android:id="@+id/alarm20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.06"
+                    android:background="@drawable/border_green_button"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:padding="15dp"
+                    android:text="20 minutes before"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    app:backgroundTint="#B57F50"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.279"
+                    tools:layout_constraintBottom_creator="1"
+                    tools:layout_constraintLeft_creator="1"
+                    tools:layout_constraintRight_creator="1"
+                    tools:layout_constraintTop_creator="1" />
+
+                <Button
+                    android:id="@+id/alarm10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.06"
+                    android:background="@drawable/border_green_button"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:padding="15dp"
+                    android:text="10  minutes before"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    app:backgroundTint="#B57F50"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.279"
+                    tools:layout_constraintBottom_creator="1"
+                    tools:layout_constraintLeft_creator="1"
+                    tools:layout_constraintRight_creator="1"
+                    tools:layout_constraintTop_creator="1" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/alarmprompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="70dp"
+            android:fontFamily="@font/nunito_extralight"
+            android:textColor="#D1D1D1"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/startSetDialog"
+            app:layout_constraintVertical_bias="1.0"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintTop_creator="1" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

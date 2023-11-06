@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4B543B"
+    tools:context=".AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingVertical="60dp"
+        android:paddingHorizontal="20dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/aboutzoo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="About The App"
+            android:fontFamily="@font/dokdo"
+            android:textAlignment="center"
+            android:textSize="32dp"
+            android:textColor="#DCE2AA"
+            android:paddingVertical="20dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The vision for Zoo Negara Guide was to create a robust tool that would seamlessly improve the visitation experience for tourists exploring the captivating wonders of Zoo Negara—a treasured zoo in Malaysia. Simultaneously, the aim was to promote this exceptional establishment to a broader international audience."
+            android:justificationMode="inter_word"
+            android:paddingHorizontal="40dp"
+            android:textSize="14dp"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Zoo Negara Guide provides users with effortless navigation through the zoo, enabling them to effortlessly locate mesmerizing animal exhibits, engaging interactive shows, and other enticing attractions. Detailed information about each animal species, including their habitats, and other intriguing facts, is readily accessible within the app, allowing visitors to delve deeper into the intricate world of wildlife."
+            android:justificationMode="inter_word"
+            android:paddingHorizontal="40dp"
+            android:textSize="14dp"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Embark on an extraordinary journey with us as we navigate the vast wonders of Zoo Negara. Let Zoo Negara Guide accompany you on this adventure, serving as a steadfast guide through a realm of captivating creatures and creating enduring memories."
+            android:justificationMode="inter_word"
+            android:paddingHorizontal="40dp"
+            android:textSize="14dp"
+            android:textColor="#fff"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/aboutdev"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="About The Developer"
+            android:fontFamily="@font/dokdo"
+            android:textAlignment="center"
+            android:textSize="32dp"
+            android:textColor="#DCE2AA"
+            android:paddingVertical="20dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Zoo Negara Guide! I am Shahnaz Zafrina, the dedicated developer behind this remarkable application. Over a period of four months, I diligently worked on crafting this app with the primary objective of enhancing the experience of foreign tourists visiting Zoo Negara."
+            android:justificationMode="inter_word"
+            android:paddingHorizontal="40dp"
+            android:textSize="14dp"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Under the invaluable guidance of my esteemed supervisors, Dr. Mohd Faisal bin Ibrahim and Madam Nurshahrily Idura Ramli, I undertook the development of Zoo Negara Guide as a CS251 (Netcentric Computing) student at UiTM Shah Alam. This application was meticulously created as part of my coursework for the CSP650 (Project Formulation) module."
+            android:justificationMode="inter_word"
+            android:paddingHorizontal="40dp"
+            android:textSize="14dp"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Through the development of this app, my aspiration was to bridge the gap between visitors and the awe-inspiring wonders of Zoo Negara. By offering Zoo Negara Guide as a companion, I sought to facilitate a comprehensive and immersive experience for foreign tourists, while also fostering a heightened appreciation for wildlife and conservation efforts."
+            android:justificationMode="inter_word"
+            android:paddingHorizontal="40dp"
+            android:textSize="14dp"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:text="We extend our sincerest gratitude for choosing Zoo Negara Guide. May your time at the zoo be filled with enchantment and delight!"
+            android:justificationMode="inter_word"
+            android:paddingHorizontal="40dp"
+            android:textSize="14dp"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+
+</ScrollView>

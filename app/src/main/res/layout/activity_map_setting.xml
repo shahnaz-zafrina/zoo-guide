@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4B543B"
+    tools:context=".MapSettingActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/slctDestTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/nunito_extralight"
+            android:text="Select your destination:"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/guestServicesTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/nunito_extralight"
+            android:text="GUEST SERVICES"
+            android:textAlignment="center"
+            android:textColor="#DCE2AA"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="30dp">
+
+                <CheckBox
+                    android:id="@+id/entrances"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="Entrances"
+                    android:textColor="#FFF" />
+
+                <CheckBox
+                    android:id="@+id/ticketCounter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="Ticket Counter"
+                    android:textColor="#FFF" />
+
+                <CheckBox
+                    android:id="@+id/tramStation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="Tram Stations"
+                    android:textColor="#FFF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/souShop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="Souvenir Shop"
+                    android:textColor="#FFF" />
+
+                <CheckBox
+                    android:id="@+id/toilet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="Toilets"
+                    android:textColor="#FFF" />
+
+                <CheckBox
+                    android:id="@+id/restAndKiosk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="Restaurants and Kiosks"
+                    android:textColor="#FFF" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/animalEnclosureTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/nunito_extralight"
+            android:text="ANIMAL ENCLOSURES"
+            android:textAlignment="center"
+            android:textColor="#DCE2AA"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="30dp">
+
+                <CheckBox
+                    android:id="@+id/mTiger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="Malayan Tiger"
+                    android:textColor="#FFF" />
+
+                <CheckBox
+                    android:id="@+id/wLion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="White Lion"
+                    android:textColor="#FFF" />
+
+                <CheckBox
+                    android:id="@+id/kCheetah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="King Cheetah"
+                    android:textColor="#FFF" />
+
+                <CheckBox
+                    android:id="@+id/capy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="Capybara"
+                    android:textColor="#FFF" />
+
+                <CheckBox
+                    android:id="@+id/giraffe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="Giraffe"
+                    android:textColor="#FFF" />
+
+                <CheckBox
+                    android:id="@+id/hGriffon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="Himalayan Griffon"
+                    android:textColor="#FFF" />
+
+                <CheckBox
+                    android:id="@+id/aWallaby"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="Agile Wallaby"
+                    android:textColor="#FFF" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/rtLemur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="Ring Tailed Lemur"
+                    android:textColor="#FFF" />
+
+                <CheckBox
+                    android:id="@+id/jDeer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="Javan Deer"
+                    android:textColor="#FFF" />
+
+                <CheckBox
+                    android:id="@+id/otter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="Asian Small-Clawed Otter"
+                    android:textColor="#FFF" />
+
+                <CheckBox
+                    android:id="@+id/nileHippo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="Nile Hippopotamus"
+                    android:textColor="#FFF" />
+
+                <CheckBox
+                    android:id="@+id/mTapir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="Malayan Tapir"
+                    android:textColor="#FFF" />
+
+                <CheckBox
+                    android:id="@+id/childWorld"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="Children's World"
+                    android:textColor="#FFF" />
+
+                <CheckBox
+                    android:id="@+id/bearComp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_extralight"
+                    android:text="Bear Complex"
+                    android:textColor="#FFF" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/selectBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nunito_extralight"
+            android:text="Proceed"
+            app:backgroundTint="#B57F50" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
