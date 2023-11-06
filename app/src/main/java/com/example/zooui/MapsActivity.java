@@ -404,7 +404,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         String mode = "mode=walking";
         String parameters = str_origin + "&" + str_dest + "&" + mode;
         String output = "json";
-        String url = "https://maps.googleapis.com/maps/api/directions/" + output + "?" + parameters + "&key=AIzaSyAB_CkbgbjLRdgVVzxokCcf59BTVuPj-fs";
+        String url = "https://maps.googleapis.com/maps/api/directions/" + output + "?" + parameters + "INSERT_GOOGLE_MAP_API_KEY";
         return url;
     }
 
