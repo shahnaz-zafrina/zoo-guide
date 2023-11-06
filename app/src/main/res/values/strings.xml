@@ -6,7 +6,6 @@
     <string name="feeding">Animal Feeding Session</string>
     <string name="alarmactivity">Reminder</string>
     <string name="feedbackform">Feedback</string>
-    <string name="accessToken">sk.eyJ1Ijoic2h1aG51eiIsImEiOiJjbGhrZWc0YzcwcXk2M3RxcHUycXZoOHc2In0.Oh2UHxFCV-WCYrHQkV_W3w</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="title_activity_settings">SettingsActivity</string>
     <string name="english">en-US</string>
