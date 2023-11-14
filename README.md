@@ -21,7 +21,7 @@ This project was developed by Shahnaz Zafrina for a Final Year Project, subject 
 
 ## Getting Started
 1. **Clone the Repository:**
-   git clone https://github.com/yourusername/MobileZooGuide.git
+   git clone https://github.com/shahnaz-zafrina/zoo-guide.git
 2. **Open in Android Studio:**
    Open Android Studio and select "Open an existing Android Studio project."
    Navigate to the cloned repository and select the project.
@@ -30,9 +30,9 @@ This project was developed by Shahnaz Zafrina for a Final Year Project, subject 
    Click on the "Run" button in Android Studio to install and run the app.
 4. **Scan QR Codes:**
    Use the in-app QR code scanner to explore the zoo and enjoy the interactive features.
+   Change the Google Map API key in app/src/main/java/com/example/zooui/MapsActivity.java to your own.
 
 ## Screenshots
 https://imgur.com/a/8oAbORC
 
-*Note: Customize the sections, placeholders, and details according to your project's specifics. 
-Change the Google Map API key in app/src/main/java/com/example/zooui/MapsActivity.java to your own.*
+*Note: Customize the sections, placeholders, and details according to your project's specifics.*
