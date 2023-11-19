@@ -14,10 +14,10 @@ This project was developed by Shahnaz Zafrina for a Final Year Project, subject 
    Set and receive notifications about zoo events.
 
 ## Technologies Used
-**Programming Language:** Java (Android)
-**QR Code Library:** ZXing
-**Database:** Local database (PhpMyAdmin)
-**Maps Integration:** Google Maps API
+**Programming Language:** Java, XML<br>
+**QR Code Library:** ZXing<br>
+**Database:** Local database (PhpMyAdmin)<br>
+**APIs:** Google Maps API, RESTful API
 
 ## Getting Started
 1. **Clone the Repository:**
@@ -32,7 +32,8 @@ This project was developed by Shahnaz Zafrina for a Final Year Project, subject 
    Use the in-app QR code scanner to explore the zoo and enjoy the interactive features.
    Change the Google Map API key in app/src/main/java/com/example/zooui/MapsActivity.java to your own.
 
-## Screenshots
-https://imgur.com/a/8oAbORC
+## Screenshots & Documentation
+Find screenshots for the application here: [https://imgur.com/a/8oAbORC]<br>
+Full project documentation here: [https://drive.google.com/file/d/1TGprYH_DjTgFlhspm0D9pHYzc7NjMMpy/view?usp=sharing]
 
 *Note: Customize the sections, placeholders, and details according to your project's specifics.*
